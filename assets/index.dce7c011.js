@@ -1,0 +1,1 @@
+import{h as t}from"./http.8bc641a3.js";const e={GetBanner:(e={distributionSite:1})=>t({method:"GET",url:"/home/banner",data:e}),getMutli:()=>t({method:"GET",url:"/home/category/mutli"}),getHotMutli:()=>t({method:"GET",url:"/home/hot/mutli"}),getGuessLike:e=>t({method:"GET",url:"/home/goods/guessLike",data:e}),GetHotGood:(e,o)=>t({method:"GET",url:e,data:o})};export{e as h};
